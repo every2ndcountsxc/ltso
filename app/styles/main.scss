@@ -17,6 +17,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
 
+$orange = #f86e12;
+
 html, body {
   font-family: 'league_spartanregular';
   text-align: center;
@@ -39,6 +41,10 @@ body {
 
 .page-row-expanded {
   height: 100%;
+}
+
+.text-orange {
+  color: $orange;
 }
 
 #five-dollar-bill {
@@ -233,11 +239,11 @@ input[type="checkbox"] {
   }
 }
 
-.digit-last {
-  span.char1, span.char2 {
-    background: #f86e12;
-  }
-}
+//.digit-last {
+//  span.char1, span.char2 {
+//    background: #f86e12;
+//  }
+//}
 
 #buy-leads {
   border-top: 1.5px solid #bdbdbd;
