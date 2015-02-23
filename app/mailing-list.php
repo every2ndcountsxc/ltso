@@ -11,7 +11,7 @@
 
             $recipient = "jamesbarracca@yahoo.com";
 
-            $subject = "Someone wants to join the Leads Til Sold Out Mailing List!";
+            $subject = "$email wants to join the Leads Til Sold Out Mailing List!";
 
 
             $email_content = "Email: $email\n";
